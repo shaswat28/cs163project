@@ -1,3 +1,3 @@
 # cs163 data science project
-Student Time Management App
+Student Productivity App
 - Features: TBA
