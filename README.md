@@ -1,33 +1,35 @@
 # cs163 data science project
-Student Productivity App: DeepWork
 
-Prerequisites
+# DeepWork - Deep Focus Productivity App
 
-Node.js (v14 or higher) - Download here
-npm (comes with Node.js)
-VS Code (recommended) - Download here
+### Prerequisites
 
-Installation
+- **Node.js** (v14 or higher) - [Download here](https://nodejs.org/)
+- **npm** (comes with Node.js)
+- **VS Code** (recommended) - [Download here](https://code.visualstudio.com/)
 
-Create a new React app
+### Installation
 
-bash   npx create-react-app deepwork-app
+1. **Create a new React app**
+   ```bash
+   npx create-react-app deepwork-app
    cd deepwork-app
+   ```
 
-Install dependencies
+2. **Install dependencies**
+   ```bash
+   npm install lucide-react
+   ```
 
-bash   npm install lucide-react
+3. **Replace the default files**
+   - Copy the contents of `App.js` to `src/App.js`
+   - Copy the contents of `App.css` to `src/App.css`
 
-Replace the default files
+4. **Run the application**
+   ```bash
+   npm start
+   ```
 
-Copy the contents of App.js to src/App.js
-Copy the contents of App.css to src/App.css
+5. **Open your browser**
+   - The app will automatically open at `http://localhost:3000`
 
-
-Run the application
-
-bash   npm start
-
-Open your browser
-
-The app will automatically open at http://localhost:3000
